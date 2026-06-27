@@ -1,0 +1,16 @@
+[package]
+name = "smart-home-patterns"
+version = "0.1.0"
+edition = "2024"
+
+[lib]
+name = "sh"
+path = "src/lib.rs"
+
+[[bin]]
+name = "smart-home-patterns"
+path = "src/bin/main.rs"
+
+[dependencies]
+num-traits = "0.2"
+rand = "0.10"
